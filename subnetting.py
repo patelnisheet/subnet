@@ -45,7 +45,7 @@ networkAddressInitialPart = networkAddressBin[0:len(subnetMaskInitialPart)]
 
 
 #6 custom subnet mask & host
-choice = input("Which information do You have?\n1. CIDR\n2. No of subnets\n3. No of total subnet Bits\n4. No of total hosts\n5. No of usable hosts\nYour choice should be 1, 2, 3, 4 or 5: ")
+choice = input("Which information do You have?\n1. CIDR\n2. No of subnet Bits\n3. No of total subnets\n4. No of total hosts\n5. No of usable hosts\nYour choice should be 1, 2, 3, 4 or 5: ")
 if choice == '1':
     CIDR = input("Enter CIDR value: ")
     CIDR = int(CIDR)
